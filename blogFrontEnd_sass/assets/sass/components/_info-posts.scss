@@ -1,0 +1,33 @@
+.info-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: .5rem;
+
+    &__date {
+        font-size: 1rem;
+    }
+
+    &__title {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    &-author{
+        display: flex;
+
+        &__img {
+            width: 2.5rem;
+            height: 2.5rem;
+            
+            border-radius: 50%;
+        }
+        &__name {
+        
+            align-self: center;
+            margin-left: .5rem;
+        }
+        
+    }
+
+}

@@ -1,0 +1,66 @@
+
+.popular-and-categories {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 31.25rem;
+
+}
+
+.categories__title {
+    width: 100%
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.6rem;
+    padding: 0 1.25rem;
+    border-radius: 10px;
+
+    &__img {
+        width: 5rem;
+        height: 4.4rem;
+    }
+
+    &__title {
+        color: #eee;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    &--html {
+        background-color: #E93E30;
+    }
+
+    &--js {
+        background-color: #F7E018;
+    }
+
+    &--css {
+        background-color: #299ED5;
+    }
+
+    &--react {
+        background-color: #292C33;
+    }
+
+    &--vue {
+        background-color: #67C770;
+    }
+
+    &--bootstrap {
+        background-color: #563D7C;
+    }
+
+}

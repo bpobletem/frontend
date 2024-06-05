@@ -1,0 +1,32 @@
+.popular-posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 43.75rem;
+
+    &__title {
+        margin-bottom: 1.25rem;
+        width: 100%;
+    }
+}
+
+.popular-post {
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 1.25rem;
+
+    &__img {
+        width: 18.75rem;
+        height: 12rem;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+
+    &--populars {
+        margin-top: 1.25rem;
+        width: 18.75rem;
+    }
+
+
+}
+

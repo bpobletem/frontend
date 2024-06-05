@@ -1,0 +1,13 @@
+.related-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+    &__title {
+        margin-bottom: 1.25rem;
+        width: 100%;
+    }
+    
+}

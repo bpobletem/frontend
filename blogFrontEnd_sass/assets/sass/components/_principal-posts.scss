@@ -1,0 +1,47 @@
+.novedades__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.12rem;
+
+    width: 100%;
+}
+
+.novedades-post{
+    display: flex;
+    align-items: center;
+}
+
+.principal-post {
+    display: flex;
+    flex-flow: row wrap;
+    width: 37.5rem;
+
+    &__img{
+        width: 100%;
+        height: 18rem;
+        border-radius: 20px;
+        margin-bottom: .6rem;
+    }
+
+    &__date{
+        font-size: 1.12rem;
+        margin-bottom: .6rem;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: .6rem;
+    }
+
+    &__author-img {
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+    }
+
+    &__author-name {
+        align-self: center;
+        margin-left: .6rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+}

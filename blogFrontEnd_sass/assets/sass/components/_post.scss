@@ -1,0 +1,34 @@
+.info-post-author {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.info-post__date {
+    margin-left: 4rem;
+}
+
+.main-post {
+    display: flex;
+    border-radius: 10px;
+
+    &__info-post{
+        margin-bottom: 1rem;
+    }
+
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
+    &__content{
+        background-color: #e4e4e4;
+        padding: 2rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+
+}
